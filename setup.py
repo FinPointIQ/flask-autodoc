@@ -14,8 +14,8 @@ def readme():
 
 setup(
     name='Flask-Autodoc',
-    version='0.1.2',
-    url='http://github.com/acoomans/flask-autodoc',
+    version='0.2.0',
+    url='http://github.com/FinPointIQ/flask-autodoc',
     license='MIT',
     author='Arnaud Coomans',
     author_email='arnaud.coomans@gmail.com',
