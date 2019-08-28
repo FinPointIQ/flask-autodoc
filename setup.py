@@ -19,6 +19,8 @@ setup(
     license='MIT',
     author='Arnaud Coomans',
     author_email='arnaud.coomans@gmail.com',
+    maintainer="Sigma IQ, Inc.",
+    maintainer_email="info@sigmaiq.com",
     description='Documentation generator for flask',
     long_description=readme(),
     # py_modules=['flask_autodoc'],
