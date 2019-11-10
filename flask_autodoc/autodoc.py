@@ -58,7 +58,7 @@ class Autodoc(object):
         @app.template_filter()
         @evalcontextfilter
         def nl2br(eval_ctx, value):
-            result = '\n\n'.join('%s' % p.replace('\n', '<br>\n')
+            result = '\n\n'.join('%s' % p.replace('\n', ' <br>\n')
                                  for p in _paragraph_re.split(value))
             return result
 
